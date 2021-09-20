@@ -1,0 +1,14 @@
+{
+	"name": "@novas/prettier-config",
+	"version": "0.0.1",
+	"description": "Prettier config",
+	"main": "index.js",
+	"repository": "https://github.com/codynova/prettier-config",
+	"author": "Cody Persinger <codypersinger@gmail.com> (https://github.com/codynova)",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {},
+	"peerDependencies": {
+		"prettier": "2.4.1"
+	}
+}
