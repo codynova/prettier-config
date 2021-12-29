@@ -5,18 +5,14 @@ Prettier config
 
 ## Installation
 
-Install this module and its `peerDependencies`, then extend it in your `.prettierrc`:
+To use in your own custom configuration, install then extend this package in your Prettier config:
 
-```jsonc
-// package.json
-{
-	"devDependencies": {
-		"@novas/prettier-config": "latest",
-		"prettier": "2.4.1"
-	}
-}
+1. Install dependencies
+```sh
+yarn add --dev @novas/prettier-config prettier
 ```
 
+2. Configure Prettier
 ```jsonc
 // .prettierrc
 "@novas/prettier-config"
